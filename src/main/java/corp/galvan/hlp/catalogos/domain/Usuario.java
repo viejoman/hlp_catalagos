@@ -123,7 +123,7 @@ import org.hibernate.annotations.TypeDef;
         ),
         @NamedNativeQuery(
                 name = "funcGetUsuariosByIdGrupo",
-                query = "select * from desarrollo.getUsuariosByIdOficina(:p_idgrupo)",
+                query = "select * from desarrollo.getUsuariosByIdGrupo(:p_idgrupo)",
                 resultSetMapping = "UsuarioHLPMapping"
         )
 })
