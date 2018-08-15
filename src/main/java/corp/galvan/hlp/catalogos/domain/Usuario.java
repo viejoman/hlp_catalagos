@@ -120,6 +120,11 @@ import org.hibernate.annotations.TypeDef;
                 name = "funcGetUsuariosByIdOficina",
                 query = "select * from desarrollo.getUsuariosByIdOficina(:p_idoficina)",
                 resultSetMapping = "UsuarioHLPMapping"
+        ),
+        @NamedNativeQuery(
+                name = "funcGetUsuariosByIdGrupo",
+                query = "select * from desarrollo.getUsuariosByIdOficina(:p_idgrupo)",
+                resultSetMapping = "UsuarioHLPMapping"
         )
 })
 @NamedStoredProcedureQuery(

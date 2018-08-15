@@ -100,6 +100,22 @@ public class UsuarioServiceImpl implements UsuarioService {
     }
 
     @Override
+    public List<Usuario> getUsuariosByIdGrupo(Long p__idgrupo) {
+
+        List<Usuario> _listUsuarios = new ArrayList<>();
+
+        List<Object[]> _listAux = _entityManager
+                .createNamedQuery("funcGetUsuariosByIdGrupo")
+                .setParameter( "p_idgrupo", p__idgrupo )
+                .getResultList();
+
+        _listUsuarios = this.AddItems(_listAux);
+
+        return _listUsuarios;
+
+    }
+
+    @Override
     public Usuario getUsuarioGrupo(Long p__idusuario) {
 
         Usuario _usuario = new Usuario();

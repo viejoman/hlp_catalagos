@@ -159,6 +159,32 @@ public class UsuarioController {
         return  _userModel;
     }
 
+    @RequestMapping(value = "/hlp/show/grupo/{idgrupo}", method = RequestMethod.GET)
+    public UsuarioModel getUsuariosHLPByGrupo(@PathVariable long idgrupo)
+    {
+
+        UsuarioModel _userModel = new UsuarioModel();
+
+        List<Usuario> _listUsuario = _usuarioService.getUsuariosByIdGrupo(idgrupo);
+
+        if (_listUsuario.isEmpty()) {
+
+            _userModel.setSuccess(false);
+            _userModel.setCode("400");
+            _userModel.setMessage("No existen datos");
+
+        } else {
+
+            _userModel.setSuccess(true);
+            _userModel.setCode("200");
+            _userModel.setMessage("Se encontraron " + _listUsuario.size() + " Usuario(s)");
+            _userModel.setData(_listUsuario);
+
+        }
+
+        return  _userModel;
+    }
+
     @RequestMapping(value = "/logout", method = RequestMethod.POST)
     public UsuarioModel logout(@RequestBody Usuario login) throws ServletException {
         UsuarioModel _userModel = new UsuarioModel();
