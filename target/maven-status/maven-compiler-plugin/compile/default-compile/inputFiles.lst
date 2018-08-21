@@ -62,5 +62,6 @@
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/controllers/CategoriaServicioController.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/MenuServiceImpl.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/SubCategoriaService.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/CryptoHard.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/model/PrioridadModel.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/repositories/SubCategoriaServicioRepository.java

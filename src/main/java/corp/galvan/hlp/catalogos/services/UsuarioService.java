@@ -22,6 +22,8 @@ public interface UsuarioService {
 
     List<Usuario> getUsuariosByIdOficina(Long p__idoficina);
 
+    List<Usuario> getUsuariosByIdOpcion(Long p__idopcion, Long p__idgrupo, Long p__idoficina);
+
     List<Usuario> getUsuariosByIdGrupo(Long p__idgrupo);
 
     Usuario getUsuarioGrupo(Long p__idusuario);

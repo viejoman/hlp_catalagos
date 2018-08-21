@@ -84,6 +84,25 @@ public class UsuarioServiceImpl implements UsuarioService {
     }
 
     @Override
+    public List<Usuario> getUsuariosByIdOpcion(Long p__idopcion, Long p__idgrupo, Long p__idoficina) {
+
+        List<Usuario> _listUsuarios = new ArrayList<>();
+
+        List<Object[]> _listAux = _entityManager
+                .createNamedQuery("funcGetUsuariosByIdOpcion")
+                .setParameter( "p_idopcion", p__idopcion)
+                .setParameter( "p_idgrupo", p__idgrupo )
+                .setParameter( "p_idoficina", p__idoficina )
+                .getResultList();
+
+        _listUsuarios = this.AddItems(_listAux);
+
+        return _listUsuarios;
+        //return new ArrayList<>();
+
+    }
+
+    @Override
     public List<Usuario> getUsuariosByIdOficina(Long p__idoficina) {
 
         List<Usuario> _listUsuarios = new ArrayList<>();

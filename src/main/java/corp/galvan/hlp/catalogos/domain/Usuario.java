@@ -13,12 +13,16 @@ import lombok.NoArgsConstructor;
 
 import corp.galvan.hlp.catalogos.converters.LocalDateTimeConverter;
 
+import org.hibernate.annotations.ColumnDefault;
 import org.hibernate.annotations.ColumnTransformer;
 import org.hibernate.annotations.Type;
 import org.hibernate.annotations.TypeDef;
 
+import static javax.persistence.TemporalType.TIMESTAMP;
+
 @Entity(name = "Usuario")
 @Table(name = "usuarios", schema = "desarrollo")
+//@MappedSuperclass
 @Data
 @EqualsAndHashCode
 @AllArgsConstructor
@@ -122,6 +126,11 @@ import org.hibernate.annotations.TypeDef;
                 resultSetMapping = "UsuarioHLPMapping"
         ),
         @NamedNativeQuery(
+                name = "funcGetUsuariosByIdOpcion",
+                query = "select * from desarrollo.getUsuariosByIdOpcion(:p_idopcion, :p_idgrupo, :p_idoficina)",
+                resultSetMapping = "UsuarioHLPMapping"
+        ),
+        @NamedNativeQuery(
                 name = "funcGetUsuariosByIdGrupo",
                 query = "select * from desarrollo.getUsuariosByIdGrupo(:p_idgrupo)",
                 resultSetMapping = "UsuarioHLPMapping"
@@ -145,12 +154,15 @@ public class Usuario extends Auditoria<Long> implements Serializable {
     @Column(name = "id", unique = true, nullable = false, updatable = false)
     private Long idusuario;
 
-    @Column(name = "usuario")
+    @Column(name = "usuario", length = 30, nullable = false)
     private String usuario;
 
-    @ColumnTransformer(write = WRITE)
+    @ColumnTransformer(write = CryptoHard.WRITE_USERPASS)
     @Column(name = "cve_acceso")
     private byte[] passwd;
+
+    @Transient
+    private String cve_acceso_aux;
 
     @Column(name = "nombre")
     private String nombre;

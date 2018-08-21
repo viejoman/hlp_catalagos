@@ -22,6 +22,7 @@ public class UsuarioController {
 
     @RequestMapping(value = "/register", method = RequestMethod.POST)
     public Usuario registerUser(@RequestBody Usuario p__user) {
+        p__user.setPasswd(p__user.getCve_acceso_aux().getBytes());
         p__user = _usuarioService.saveOrUpdate(p__user);
         return p__user;
     }
@@ -140,6 +141,32 @@ public class UsuarioController {
         UsuarioModel _userModel = new UsuarioModel();
 
         List<Usuario> _listUsuario = _usuarioService.getUsuariosByIdOficina(idsucursal);
+
+        if (_listUsuario.isEmpty()) {
+
+            _userModel.setSuccess(false);
+            _userModel.setCode("400");
+            _userModel.setMessage("No existen datos");
+
+        } else {
+
+            _userModel.setSuccess(true);
+            _userModel.setCode("200");
+            _userModel.setMessage("Se encontraron " + _listUsuario.size() + " Usuario(s)");
+            _userModel.setData(_listUsuario);
+
+        }
+
+        return  _userModel;
+    }
+
+    @RequestMapping(value = "/hlp/show/opcion/{idopcion}/", method = RequestMethod.GET)
+    public UsuarioModel getUsuariosHLPByOpcion(@PathVariable long idopcion, @RequestParam("idgrupo") long idgrupo, @RequestParam("idoficina") long idoficina)
+    {
+
+        UsuarioModel _userModel = new UsuarioModel();
+
+        List<Usuario> _listUsuario = _usuarioService.getUsuariosByIdOpcion(idopcion, idgrupo, idoficina);
 
         if (_listUsuario.isEmpty()) {
 

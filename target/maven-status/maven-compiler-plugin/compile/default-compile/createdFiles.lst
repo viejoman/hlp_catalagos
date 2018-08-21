@@ -46,6 +46,7 @@ corp/galvan/hlp/catalogos/model/SubCateoriaServicioModel.class
 corp/galvan/hlp/catalogos/domain/Prioridad.class
 corp/galvan/hlp/catalogos/domain/Grupo.class
 corp/galvan/hlp/catalogos/model/CatergoriaServicioModel.class
+corp/galvan/hlp/catalogos/domain/CryptoHard.class
 corp/galvan/hlp/catalogos/config/CorsConfig.class
 corp/galvan/hlp/catalogos/controllers/UsuarioController.class
 corp/galvan/hlp/catalogos/domain/Accion.class
