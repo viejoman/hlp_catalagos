@@ -1,9 +1,12 @@
+corp/galvan/hlp/catalogos/model/SummaryModel.class
 corp/galvan/hlp/catalogos/repositories/PrioridadRepository.class
 corp/galvan/hlp/catalogos/model/ConfigRutinaModel.class
 corp/galvan/hlp/catalogos/repositories/UsuarioRepository.class
+corp/galvan/hlp/catalogos/controllers/OficinaController.class
 corp/galvan/hlp/catalogos/services/MenuService.class
 corp/galvan/hlp/catalogos/controllers/TipoServicioController.class
 corp/galvan/hlp/catalogos/domain/Inhibidor.class
+corp/galvan/hlp/catalogos/controllers/SummaryController.class
 corp/galvan/hlp/catalogos/services/EstadoService.class
 corp/galvan/hlp/catalogos/services/UsuarioServiceImpl.class
 corp/galvan/hlp/catalogos/model/hlpMenuModel.class
@@ -19,7 +22,9 @@ corp/galvan/hlp/catalogos/services/InhibidorServiceImpl.class
 corp/galvan/hlp/catalogos/services/AccionService.class
 corp/galvan/hlp/catalogos/domain/Estado.class
 corp/galvan/hlp/catalogos/controllers/AccionController.class
+corp/galvan/hlp/catalogos/repositories/OficinaRepository.class
 corp/galvan/hlp/catalogos/domain/CategoriaServicio.class
+corp/galvan/hlp/catalogos/services/OficinaService.class
 corp/galvan/hlp/catalogos/controllers/InhibidorController.class
 corp/galvan/hlp/catalogos/model/hlpItemMenuModel.class
 corp/galvan/hlp/catalogos/services/CategoriaServiceImpl.class
@@ -48,6 +53,8 @@ corp/galvan/hlp/catalogos/domain/Grupo.class
 corp/galvan/hlp/catalogos/model/CatergoriaServicioModel.class
 corp/galvan/hlp/catalogos/domain/CryptoHard.class
 corp/galvan/hlp/catalogos/config/CorsConfig.class
+corp/galvan/hlp/catalogos/model/OficinaModel.class
+corp/galvan/hlp/catalogos/services/OficinaServiceImpl.class
 corp/galvan/hlp/catalogos/controllers/UsuarioController.class
 corp/galvan/hlp/catalogos/domain/Accion.class
 corp/galvan/hlp/catalogos/services/SubCategoriaService.class
@@ -61,6 +68,7 @@ corp/galvan/hlp/catalogos/services/CategoriaService.class
 corp/galvan/hlp/catalogos/domain/SubCategoriaServicio.class
 corp/galvan/hlp/catalogos/model/MenuModel.class
 corp/galvan/hlp/catalogos/domain/Usuario.class
+corp/galvan/hlp/catalogos/domain/Summary.class
 corp/galvan/hlp/catalogos/model/EstadoModel.class
 corp/galvan/hlp/catalogos/domain/Menu.class
 corp/galvan/hlp/catalogos/repositories/SubCategoriaServicioRepository.class

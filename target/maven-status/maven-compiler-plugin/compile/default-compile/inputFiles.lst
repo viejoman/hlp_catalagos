@@ -3,6 +3,7 @@
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/controllers/SubCategoriaServicioController.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/Menu.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/AccionServiceImpl.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/OficinaServiceImpl.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/ConfigRutina.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/InhibidorService.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/config/JwtFilter.java
@@ -23,6 +24,7 @@
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/EstadoServiceImpl.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/EstadoService.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/Configuracion.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/model/OficinaModel.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/model/ConfigRutinaModel.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/repositories/CategoriaServicioRepository.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/Oficina.java
@@ -56,12 +58,18 @@
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/controllers/InhibidorController.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/repositories/AccionRepository.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/model/hlpMenuModel.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/model/SummaryModel.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/Usuario.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/AccionService.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/Summary.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/SubCategoriaServiceImpl.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/controllers/CategoriaServicioController.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/MenuServiceImpl.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/SubCategoriaService.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/repositories/OficinaRepository.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/domain/CryptoHard.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/services/OficinaService.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/controllers/OficinaController.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/model/PrioridadModel.java
 /home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/repositories/SubCategoriaServicioRepository.java
+/home/vagrant/Workspace/deployment/microservices/catalogos/src/main/java/corp/galvan/hlp/catalogos/controllers/SummaryController.java
