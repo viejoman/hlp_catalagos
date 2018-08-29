@@ -2,26 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a8961e-8efb-4c01-9158-354fb420bda4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/OficinaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/SummaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Summary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/model/OficinaModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/model/SummaryModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/repositories/OficinaRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/OficinaService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/OficinaServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/CatalogosHLP.jar" beforeDir="false" afterPath="$PROJECT_DIR$/docker/CatalogosHLP.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/EstadoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/EstadoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/EstadoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/EstadoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CatalogosHLP.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/CatalogosHLP.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/CatalogosHLP.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/CatalogosHLP.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/corp/galvan/hlp/catalogos/services/EstadoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/corp/galvan/hlp/catalogos/services/EstadoService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/corp/galvan/hlp/catalogos/services/EstadoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/corp/galvan/hlp/catalogos/services/EstadoServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,14 +18,15 @@
     <session id="342016455">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.21" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="2" />
-          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.25" value="3" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.29" value="1" />
           <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.30" value="1" />
@@ -49,9 +34,10 @@
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.55" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="22" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -59,7 +45,7 @@
           <entry key="Dockerfile" value="1" />
           <entry key="class" value="4" />
           <entry key="iml" value="1" />
-          <entry key="java" value="101" />
+          <entry key="java" value="107" />
           <entry key="properties" value="6" />
           <entry key="xml" value="1" />
         </counts>
@@ -68,7 +54,7 @@
         <counts>
           <entry key="CLASS" value="4" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="101" />
+          <entry key="JAVA" value="107" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="6" />
           <entry key="XML" value="1" />
@@ -105,61 +91,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/OficinaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="89">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/RutinaController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Oficina.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/model/OficinaModel.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Usuario.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="18" column="24" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/model/PrioridadModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/model/ConfigRutinaModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="18" />
+            <state relative-caret-position="1335">
+              <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -178,6 +122,42 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
               <caret line="11" column="61" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/SubCategoriaServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/TipoServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/UsuarioServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/UsuarioController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-95">
+              <caret line="163" column="156" lean-forward="true" selection-start-line="163" selection-start-column="76" selection-end-line="163" selection-end-column="156" />
             </state>
           </provider>
         </entry>
@@ -244,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="20" />
     <option name="y" value="44" />
     <option name="width" value="1392" />
@@ -255,8 +235,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,6 +298,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="catalogos" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CatalogosHLP" type="b2602c69:ProjectViewProjectNode" />
+              <item name="catalogos" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="catalogos" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -356,7 +343,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -424,11 +413,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="24" width="1442" height="853" extended-state="7" />
+    <frame x="-1" y="24" width="1442" height="853" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.64801866" visible="true" weight="0.3400287" />
-      <window_info id="Structure" order="1" sideWeight="0.35198134" side_tool="true" visible="true" weight="0.3400287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.64502764" visible="true" weight="0.3558106" />
+      <window_info id="Structure" order="1" sideWeight="0.35497236" side_tool="true" visible="true" weight="0.3558106" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -437,7 +426,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.40745857" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40745857" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -487,21 +476,25 @@
     <MESSAGE value="Se agrega método para consultar usuario por idgrupo" />
     <option name="LAST_COMMIT_MESSAGE" value="Se agrega método para consultar usuario por idgrupo" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Usuario.java</url>
+          <line>105</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" log-message="true" suspend="NONE" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Usuario.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Prioridad.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Configuracion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="246">
@@ -636,13 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/UsuarioServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="94" column="59" lean-forward="true" selection-start-line="94" selection-start-column="59" selection-end-line="94" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/CryptoHard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -654,13 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="129" column="95" selection-start-line="129" selection-start-column="86" selection-end-line="129" selection-end-column="95" />
         </state>
       </provider>
     </entry>
@@ -692,13 +671,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/UsuarioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="163" column="156" lean-forward="true" selection-start-line="163" selection-start-column="76" selection-end-line="163" selection-end-column="156" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Summary.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -710,9 +682,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,19 +738,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/OficinaServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/RutinaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="18" selection-start-line="18" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -809,6 +772,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/OficinaController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/OficinaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Oficina.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1335">
+          <caret line="107" column="33" selection-start-line="107" selection-start-column="33" selection-end-line="107" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/PrioridadController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -823,6 +820,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/SubCategoriaServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/TipoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/OficinaService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -833,27 +844,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/OficinaController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/services/UsuarioServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="564">
+          <caret line="146" column="25" selection-start-line="146" selection-start-column="25" selection-end-line="146" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/RutinaController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/controllers/UsuarioController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/corp/galvan/hlp/catalogos/domain/Oficina.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="-95">
+          <caret line="163" column="156" lean-forward="true" selection-start-line="163" selection-start-column="76" selection-end-line="163" selection-end-column="156" />
         </state>
       </provider>
     </entry>
