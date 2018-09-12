@@ -44,4 +44,7 @@ public class Prioridad {
     @Column(name = "tiempoescalar")
     private Integer tiempoescalar;
 
+    @Column(name = "idtipocat")
+    private Long idtipocat;
+
 }
