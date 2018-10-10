@@ -28,4 +28,5 @@ public interface UsuarioService {
 
     Usuario getUsuarioGrupo(Long p__idusuario);
 
+    Boolean update_cve_acceso(Usuario p__user);
 }

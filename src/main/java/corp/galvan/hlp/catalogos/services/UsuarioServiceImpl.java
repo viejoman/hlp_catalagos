@@ -5,14 +5,13 @@ import corp.galvan.hlp.catalogos.domain.Usuario;
 import corp.galvan.hlp.catalogos.domain.Grupo;
 
 import corp.galvan.hlp.catalogos.repositories.UsuarioRepository;
+import org.hibernate.Transaction;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
-import javax.persistence.Query;
-import javax.persistence.StoredProcedureQuery;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -162,6 +161,35 @@ public class UsuarioServiceImpl implements UsuarioService {
         }
 
         return _listUsuarios;
+
+    }
+
+    @Transactional(readOnly=false)
+    public Boolean update_cve_acceso(Usuario p__user){
+
+        int _update = -1;
+
+        try {
+
+            p__user.setPasswd(p__user.getCve_acceso_aux().getBytes());
+
+
+            String _sql = "update desarrollo.usuarios set apellido_materno = :apmaterno where id = :idusuario";
+
+            _update = _entityManager.createNativeQuery(_sql, Usuario.class)
+                    .setParameter("apmaterno", p__user.getAmaterno())
+                    .setParameter("idusuario", p__user.getIdusuario())
+                    .executeUpdate();
+
+            //_entityManager.getTransaction().commit();
+
+            return true;
+
+        } catch (Exception e) {
+
+            return false;
+
+        }
 
     }
 

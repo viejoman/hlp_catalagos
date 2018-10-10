@@ -27,6 +27,24 @@ public class UsuarioController {
         return p__user;
     }
 
+    @RequestMapping(value = "/registerlist", method = RequestMethod.POST)
+    public Boolean registerUser(@RequestBody List<Usuario> p__listuser) {
+
+        for (Usuario _user : p__listuser) {
+            _user.setPasswd(_user.getCve_acceso_aux().getBytes());
+            _user = _usuarioService.saveOrUpdate(_user);
+        }
+
+        return true;
+    }
+
+    @RequestMapping(value = "/updatecveacceso", method = RequestMethod.POST)
+    public Boolean updatePassUser(@RequestBody Usuario p__user) {
+
+        return _usuarioService.update_cve_acceso(p__user);
+
+    }
+
     @RequestMapping(value = "/login", method = RequestMethod.POST)
     public UsuarioModel login(@RequestBody Usuario login) throws ServletException {
 
